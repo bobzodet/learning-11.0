@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: orangered;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 64px;
+  width: 100%;
+  height: 96px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 32px;
+}
+.nav-heading {
+  font-size: 48px;
+  font-family: "Agbalumo", sans-serif;
+}
+.nav-btn {
+  width: 96px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 8px;
+  border: 1px solid black;
+  font-family: "Agbalumo", sans-serif;
+}
+main {
+  padding: 0px 64px;
+  width: 100%;
+}
+.main-para {
+  font-family: "lato", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+#container {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 20%;
+  height: fit-content;
+  border: 0.5px solid rgb(105, 81, 81);
+  border-radius: 12px;
+}
+.img {
+  width: 100%;
+  height: 250px;
+  border-radius: 12px 12px 0px 0px;
+}
+.product-other {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.product-flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-tittle {
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+}
+.product-description {
+  font-family: "lato", sans-serif;
+  font-style: italic;
+  font-size: 12;
+  font-weight: 300;
+}
